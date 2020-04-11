@@ -14,12 +14,12 @@ end
 
 def assign_rooms(speaker_name)
   room_assignments = []
-    counter = 1
+  counter = 1
     speaker_name.each do |speaker|
-      room_assignments.push("Hello, #{speaker}! You'll be assigned to room #{counter}!")
-      counter += 1
-    end
-room_assignments
+    room_assignments.push("Hello, #{speaker}! You'll be assigned to room #{counter}!")
+  counter += 1
+  end
+  room_assignments
 end
 
 
